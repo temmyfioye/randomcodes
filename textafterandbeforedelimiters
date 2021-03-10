@@ -1,0 +1,5 @@
+## power BI code to extract first text before the last comma
+Text.AfterDelimiter([full address], ",", {0, RelativePosition.FromEnd})
+
+##power bi code to extract text betweem the second to last and last comma
+Text.BeforeDelimiter([TownandcountryCol], ",")
